@@ -1,0 +1,38 @@
+.customer-container {
+  padding-top: 5%;
+
+  @media (max-with: 767px) {
+    padding-top: 15%;
+  }
+}
+.new-customer {
+  margin-left: 1%;
+
+  @media (max-with: 767px) {
+    padding-bottom: 10px;
+  }
+}
+.customer-card {
+  margin: 1%;
+  display: inline-block;
+  width: 20%;
+
+  @media (max-with: 767px) {
+    width: 98%;
+  }
+  @media (max-with: 767px) {
+    width: 48%;
+  }
+  @media (max-with: 767px) {
+    width: 23%;
+  }
+}
+.customer-header-image {
+  background-image: url("http://material.angular.io/assets/img/examples/shiba1.jpg");
+  background-size: cover;
+}
+.paginator-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
